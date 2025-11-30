@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trading Analysis Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Trading Analysis Platform</h1>
+            <p class="subtitle">Intelligent Trading Insights Based on Historical Data</p>
+        </header>
+
+        <div class="main-content">
+            <section class="card">
+                <h2>📊 Analyze Stock</h2>
+                <div class="input-group">
+                    <input type="text" id="stockSymbol" placeholder="Enter Stock Symbol (e.g., AAPL, TSLA)" />
+                    <button id="analyzeBtn" class="btn-primary">Analyze</button>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>📈 Historical Performance</h2>
+                <div id="historicalChart" class="chart-container">
+                    <canvas id="priceChart"></canvas>
+                </div>
+                <div id="historicalStats" class="stats-grid"></div>
+            </section>
+
+            <section class="card">
+                <h2>🧠 AI Analysis & Insights</h2>
+                <div id="aiAnalysis" class="analysis-content">
+                    <div class="placeholder">Enter a stock symbol to get AI-powered analysis</div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>🔮 Future Predictions</h2>
+                <div id="predictions" class="predictions-grid"></div>
+            </section>
+
+            <section class="card">
+                <h2>💡 Trading Suggestions</h2>
+                <div id="suggestions" class="suggestions-list"></div>
+            </section>
+
+            <section class="card">
+                <h2>⚠️ Risk Assessment</h2>
+                <div id="riskAssessment" class="risk-content"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
